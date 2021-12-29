@@ -1,0 +1,6 @@
+<launch>
+	<!-- Robot frames are provided along with robot state publisher -->
+	<include file="$(find rosbot_navigation)/launch/turtlebot3_world.launch"/>
+	<!-- Hector slam package-->
+	<include file="$(find hector_mapping)/launch/mapping_default.launch"/>
+</launch>
